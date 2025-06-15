@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NODU Mark - The Intuitive Markup Language</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>NODU Mark</h1>
+        <p>"No One Doesn't Understand" - An intuitive markup language that can be understood without a renderer.</p>
+    </header>
+
+    <main>
+        <div class="editor-container">
+            <textarea id="editor" placeholder="Enter NODU Mark syntax here..."></textarea>
+        </div>
+        <div class="preview-container">
+            <div id="preview"></div>
+        </div>
+    </main>
+
+    <section class="syntax-guide">
+        <h2>NODU Mark Syntax Guide</h2>
+        <ul>
+            <li><code>[|Bold Text|]</code>: <strong>Bold</strong></li>
+            <li><code>~Wavy Text~</code>: <span class="wavy-text">Wavy</span></li>
+            <li><code>-Strikethrough-</code>: <s>Strikethrough</s></li>
+            <li><code>*/Italic Text/*</code>: <em>Italic</em></li>
+            <li><code>%#hexcode:text%</code>: <span style="color: #FF5733;">Color Change</span></li>
+            <li><code>#Header#</code>: H1 Header</li>
+            <li><code>-#Header#-</code>: H2 Header (up to level 20)</li>
+            <li><code>!!!Slightly Larger Text!!!</code>: <span class="large-text">Slightly Larger Text</span></li>
+            <li><code>----</code>: Horizontal Line</li>
+            <li><code>([Speech Bubble])</code>: Speech Bubble</li>
+            <li><code>{[Thought Bubble]}</code>: Thought Bubble</li>
+            <li><code>[!Image Link!]</code>: Display Image</li>
+            <li><code>- Unordered List</code>: Unordered List</li>
+            <li><code>!- Ordered List</code>: Ordered List</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>NODU Mark Live Previewer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
